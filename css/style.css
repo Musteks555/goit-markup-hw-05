@@ -595,6 +595,14 @@ fieldset {
 }
 
 .footer-btn {
+    color: #fff;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -613,16 +621,6 @@ fieldset {
 .footer-btn:active,
 .footer-btn:focus {
     background: #404bbf;
-}
-
-.footer-btn-text {
-    color: #fff;
-
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.64px;
 }
 
 .footer-btn-icon {
@@ -796,8 +794,8 @@ fieldset {
     text-decoration-line: underline;
 }
 
-.modal-checkbox-input:checked {
-}
+/* .modal-checkbox-input:checked {
+} */
 
 .modal-submit-btn {
     color: #fff;
