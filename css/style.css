@@ -574,13 +574,17 @@ fieldset {
 .footer-input {
     color: #fff;
 
+    font-size: 12;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
     width: 264px;
     height: 40px;
 
     border-radius: 4px;
     border: 1px solid #fff;
 
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 
     background-color: inherit;
 
@@ -597,7 +601,7 @@ fieldset {
 .footer-btn {
     color: #fff;
 
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -607,8 +611,9 @@ fieldset {
     justify-content: center;
     align-items: center;
 
+    min-width: 165px;
+    
     padding: 8px 24px;
-    gap: 16px;
 
     border-radius: 4px;
     border: none;
@@ -625,6 +630,8 @@ fieldset {
 
 .footer-btn-icon {
     fill: #ffffff;
+
+    margin-left: 16px;
 }
 
 /* modal */
