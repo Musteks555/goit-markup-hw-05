@@ -817,11 +817,9 @@ fieldset {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-
-    margin-left: 8px;
 }
 
-.modal-checkbox-input:checked .modal-checkbox-input-container {
+.modal-checkbox-input:checked + .modal-checkbox-label.modal-checkbox-input-container {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
@@ -834,6 +832,8 @@ fieldset {
 
     width: 16px;
     height: 16px;
+
+    margin-right: 8px;
 
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
